@@ -9,11 +9,11 @@ Dear ImGui is an immediate-mode graphical user interface library that is very li
 
 Status
 ------
-Version: 1.18
+Version: 1.20
 
 ImGui version: 1.74
 
-Supported engine version: 4.24*
+Supported engine version: 4.25*
 
 \* *Plugin has been tested and if necessary updated to compile and work with this engine version. As long as possible I will try to maintain backward compatibility of existing features and possibly but not necessarily when adding new features. Right now it should be at least backward compatible with the engine version 4.15.*
 
@@ -236,7 +236,7 @@ There is a self-debug functionality build into this plugin. This is hidden by de
 - `ImGui.Debug.Input` - Show debug for input state.
 
 ### Settings
-Plugin settings can be found in *Project Settings/Plugins/ImGui* panel. Right now they amount to a few properties that customize input handling.
+Plugin settings can be found in *Project Settings/Plugins/ImGui* panel. There is a bunch of properties allowing to tweak input handling, keyboard shortcuts (one for now), canvas size and DPI scale.
 
 ##### Extensions
 - `ImGui Input Handler Class` - Path to own implementation of ImGui Input Handler that allows limited customization of the input handling. If not set, then the default implementation is used.
